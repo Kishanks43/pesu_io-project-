@@ -256,8 +256,8 @@ def create_interface(voicerag: VoiceRAG):
 
 
 if __name__ == "__main__":
-    GROQ_API_KEY = "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"
-    ASSEMBLY_API_KEY = "0ab2b85808b149d68af469e85bcc17bf"
+    GROQ_API_KEY = "GROQ_API_KEY"
+    ASSEMBLY_API_KEY = "ASSEMBLY_API_KEY"
     voicerag = VoiceRAG(api_key=GROQ_API_KEY, assembly_api_key=ASSEMBLY_API_KEY)
     interface = create_interface(voicerag)
     interface.launch()
